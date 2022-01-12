@@ -1,0 +1,18 @@
+{
+  "name": "pdf-searcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+    "build-macOS": "electron-packager ./src pdf-searcher --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src pdf-searcher --platform=win32 --arch=x64 --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0"
+  }
+}
