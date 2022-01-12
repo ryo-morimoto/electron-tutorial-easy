@@ -1,12 +1,12 @@
 {
-  "name": "pdf-searcher",
+  "name": "electron-tutorial-easy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "electron ./src",
-    "build-macOS": "electron-packager ./src pdf-searcher --platform=darwin --arch=x64 --overwrite",
-    "build-windows": "electron-packager ./src pdf-searcher --platform=win32 --arch=x64 --overwrite",
+    "build-macOS": "electron-packager ./src electron-tutorial-easy --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src electron-tutorial-easy --platform=win32 --arch=x64 --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
